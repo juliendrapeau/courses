@@ -1,7 +1,7 @@
 ---
 tags: []
 created date: 26-08-2024 10:36
-modified date: 08-09-2024 16:26
+modified date: 19-09-2024 16:09
 ---
 **Résumé:**
 - Définition des matrices densités

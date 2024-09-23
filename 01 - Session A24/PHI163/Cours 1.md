@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 30-08-2024 10:33
-modified date: 08-09-2024 16:26
+modified date: 19-09-2024 16:09
 ---
 **Résumé:** La philosophie russe, influencée par le mysticisme et la théologie, s'est développée tardivement en raison de la censure et de l'analphabétisme. L'aristocratie, marquée par la culture française, et l'influence des francs-maçons ont joué un rôle clé. L'Intelligentsia, distincte des intellectuels, a émergé pour réfléchir sur l'art et la condition humaine. La culture russe, connectée à la terre et marquée par des influences opposées, souffre d'un manque de continuité politique et d'un retard intellectuel lié à son histoire et sa géographie.
 

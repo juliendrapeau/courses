@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 13-09-2024 08:59
-modified date: 13-09-2024 09:00
+modified date: 19-09-2024 16:09
 ---
 **Résumé:** La philosophie russe se concentre sur l'histoire humaine et le salut, avec une vision messianique distincte. Marquée par l'orthodoxie chrétienne, elle diffère du catholicisme en mettant l'accent sur la dimension mystique de Jésus. La Russie a cherché à unifier ses peuples face aux puissances européennes, et la langue slavonne a façonné sa culture. Les _iourodstvo_, comme Rasputin, ont contesté les normes sociales pour des raisons spirituelles, illustrant la tolérance russe à la souffrance et la piété.
 

@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 05-09-2024 08:39
-modified date: 08-09-2024 16:26
+modified date: 19-09-2024 16:09
 ---
 ## Propriétés générales des matrices densités
 

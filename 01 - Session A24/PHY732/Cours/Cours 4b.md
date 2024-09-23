@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 19-09-2024 08:36
-modified date: 19-09-2024 08:37
+modified date: 19-09-2024 16:09
 ---
 # Examples de bruit quantique et d'opérations quantiques
 
@@ -18,7 +18,7 @@ $$
 \end{align}
 $$
 
-et $E_{j} = \ket{0}\!\bra{j}$.
+et $E_{j} = \ket{0}\!\bra{j}$. Donc, $\mathrm{Tr}(\rho) = \sum_{j}\ket{0}\bra{j} \rho \ket{j}\bra{0}$.
 
 $$
 \begin{align}
@@ -74,8 +74,6 @@ E_{1} = \sqrt{ 1-p }X = \sqrt{ 1-p}\begin{pmatrix}
 \end{pmatrix}
 $$
 
-*Pas fini.*
-
 **Phase flip:**
 
 On applique une porte $Z$ avec une probabilité $(1-p)$ tel que $p \rho + (1-p)Z\rho Z$.
@@ -117,7 +115,24 @@ $$
 B = \exp(\theta [\hat{a}^{\dagger}\hat{b} - \hat{a}\hat{b}^{\dagger}])
 $$
 
-où $\hat{a}, \hat{a}^{\dagger}, \hat{b}, \hat{b}^{\dagger}$ sont les opérateurs d'annihilation et de création de photons pour les deux modes. 
+où $\hat{a}, \hat{a}^{\dagger}, \hat{b}, \hat{b}^{\dagger}$ sont les opérateurs d'annihilation et de création de photons pour les deux modes. Plus précisément, on a que
+
+$$
+\hat{a} = \begin{pmatrix}
+0 & 1 \\
+0 & 0
+\end{pmatrix}, \
+\hat{a}^{\dagger} = \begin{pmatrix}
+0 & 0 \\
+1 & 0
+\end{pmatrix}, \
+B = \begin{pmatrix}
+1 & 0 & 0 & 0 \\
+0 & \cos(\theta) & -\sin(\theta) & 0 \\
+0 & \sin(\theta) & \cos(\theta) & 0 \\
+0 & 0 & 0 & 1
+\end{pmatrix}.
+$$
 
 ![|500](Attachements/4b-1.png)
 
@@ -203,7 +218,7 @@ $$
 \end{align}
 $$
 
-où $E_{0} = \sqrt{ 1-p }I$, $E_{1} = \sqrt{ \frac{p}{3} }X$, $E_{2} = \sqrt{ \frac{p}{3} }Y$, $E_{3}= \sqrt{ \frac{p}{2} }Z$. On appelle cela un canal dépolarisant.
+où $E_{0} = \sqrt{ 1-p }I$, $E_{1} = \sqrt{ \frac{p}{3} }X$, $E_{2} = \sqrt{ \frac{p}{3} }Y$, $E_{3}= \sqrt{ \frac{p}{2} }Z$. On appelle cela un *canal dépolarisant.*
 
 **Exemple (Amortissement d'amplitude):**
 

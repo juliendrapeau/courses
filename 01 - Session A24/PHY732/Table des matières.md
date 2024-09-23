@@ -1,3 +1,8 @@
+---
+tags: 
+created date: 19-09-2024 15:42
+modified date: 20-09-2024 10:01
+---
 
 Toute la matière du cours se trouve dans le manuel suivant:
 
@@ -7,7 +12,8 @@ Toute la matière du cours se trouve dans le manuel suivant:
 | :----------------------------------------------------------------------------------------------------------------------------------------------: | --------- |
 |                                             [Matrice densité](Cours/Cours%201a.md#Matrice%20densité)                                             | 99 à 108  |
 |                                       [Opérations quantiques](Cours/Cours%203a.md#Opérations%20quantiques)                                       | 356 à 373 |
-| [Examples de bruit quantique et d'opérations quantiques](Cours/Cours%204b.md#Examples%20de%20bruit%20quantique%20et%20d'opérations%20quantiques) | 373 à 383 |
+| [Examples de bruit quantique et d'opérations quantiques](Cours/Cours%204b.md#Examples%20de%20bruit%20quantique%20et%20d'opérations%20quantiques) | 373 à 385 |
+|                    [Introduction à la correction d'erreur](Cours/Cours%205a.md#Introduction%20à%20la%20correction%20d'erreur)                    | 425 à     |
 
 1. [Matrice densité](Cours/Cours%201a.md#Matrice%20densité)
 	1. [Ensemble d'états quantiques](Cours/Cours%201a.md#Ensemble%20d'états%20quantiques)
@@ -23,3 +29,8 @@ Toute la matière du cours se trouve dans le manuel suivant:
 	1. [Trace et trace partielle](Cours/Cours%204b.md#Trace%20et%20trace%20partielle)
 	2. [Canaux de bit flip et de phase flip](Cours/Cours%204b.md#Canaux%20de%20bit%20flip%20et%20de%20phase%20flip)
 	3. [Description de la dissipation d'énergie](Cours/Cours%204b.md#Description%20de%20la%20dissipation%20d'énergie)
+4. [Introduction à la correction d'erreur](Cours/Cours%205a.md#Introduction%20à%20la%20correction%20d'erreur)
+	1. [Code bit flip à trois qubits](Cours/Cours%205a.md#Code%20bit%20flip%20à%20trois%20qubits)
+	2. [Code phase flip à trois qubits](Cours/Cours%205a.md#Code%20phase%20flip%20à%20trois%20qubits)
+5. [Code de Shor](Cours/Cours%205a.md#Code%20de%20Shor)
+	1. 

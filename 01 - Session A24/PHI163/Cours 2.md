@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 06-09-2024 08:48
-modified date: 08-09-2024 16:26
+modified date: 19-09-2024 16:09
 ---
 **Résumé:** La philosophie russe privilégie les arts, le mysticisme et les questions existentielles plutôt que la pensée critique. Elle rejette la culture comme création humaine, mais valorise le folklore et la spiritualité. Le concept de _l'homme de trop_ incarne le noble marginal, tandis que l'humanitarisme, introduit par les francs-maçons, met l'accent sur la compassion. Les églises et les icônes sont au cœur de cette pensée, malgré leur destruction sous le communisme.
 
