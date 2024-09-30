@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 19-09-2024 15:42
-modified date: 20-09-2024 10:01
+modified date: 30-09-2024 16:30
 ---
 
 Toute la matière du cours se trouve dans le manuel suivant:
@@ -13,7 +13,10 @@ Toute la matière du cours se trouve dans le manuel suivant:
 |                                             [Matrice densité](Cours/Cours%201a.md#Matrice%20densité)                                             | 99 à 108  |
 |                                       [Opérations quantiques](Cours/Cours%203a.md#Opérations%20quantiques)                                       | 356 à 373 |
 | [Examples de bruit quantique et d'opérations quantiques](Cours/Cours%204b.md#Examples%20de%20bruit%20quantique%20et%20d'opérations%20quantiques) | 373 à 385 |
-|                    [Introduction à la correction d'erreur](Cours/Cours%205a.md#Introduction%20à%20la%20correction%20d'erreur)                    | 425 à     |
+|                    [Introduction à la correction d'erreur](Cours/Cours%205a.md#Introduction%20à%20la%20correction%20d'erreur)                    | 425 à 431 |
+|                                               [Code de Shor](Cours/Cours%205a.md#Code%20de%20Shor)                                               | 432 à 434 |
+|             [Théorie de la correction d'erreur quantique](Cours/Cours%205b.md#Théorie%20de%20la%20correction%20d'erreur%20quantique)             | 435 à 441 |
+|                          [Construction de codes quantiques](Cours/Cours%206a.md#Construction%20de%20codes%20quantiques)                          | 445 à     |
 
 1. [Matrice densité](Cours/Cours%201a.md#Matrice%20densité)
 	1. [Ensemble d'états quantiques](Cours/Cours%201a.md#Ensemble%20d'états%20quantiques)
@@ -33,4 +36,8 @@ Toute la matière du cours se trouve dans le manuel suivant:
 	1. [Code bit flip à trois qubits](Cours/Cours%205a.md#Code%20bit%20flip%20à%20trois%20qubits)
 	2. [Code phase flip à trois qubits](Cours/Cours%205a.md#Code%20phase%20flip%20à%20trois%20qubits)
 5. [Code de Shor](Cours/Cours%205a.md#Code%20de%20Shor)
-	1. 
+6. [Théorie de la correction d'erreur quantique](Cours/Cours%205b.md#Théorie%20de%20la%20correction%20d'erreur%20quantique)
+	1. [Discrétisation des erreurs](Cours/Cours%205b.md#Discrétisation%20des%20erreurs)
+7. [Construction de codes quantiques](Cours/Cours%206a.md#Construction%20de%20codes%20quantiques)
+	1. [Codes linéaires classiques](Cours/Cours%206a.md#Codes%20linéaires%20classiques)
+	2. [Codes quantiques de Calderbank-Shor-Steane](Cours/Cours%206a.md#Codes%20quantiques%20de%20Calderbank-Shor-Steane)

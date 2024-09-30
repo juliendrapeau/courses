@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 19-09-2024 08:36
-modified date: 19-09-2024 16:09
+modified date: 30-09-2024 16:30
 ---
 # Examples de bruit quantique et d'opérations quantiques
 
@@ -61,7 +61,7 @@ $$
 
 **Bit flip:**
 
-On applique une porte $X$ avec une probabilité $(1-p)$ tel que $p \rho + (1-p)X\rho X$.
+On applique une porte $X$ avec une probabilité $(1-p)$ tel que $\varepsilon(\rho) = p \rho + (1-p)X\rho X$.
 
 $$
 E_{0} = \sqrt{ p }I = \sqrt{ p } \begin{pmatrix}

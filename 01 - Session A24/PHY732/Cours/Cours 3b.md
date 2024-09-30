@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 12-09-2024 08:31
-modified date: 19-09-2024 16:09
+modified date: 30-09-2024 16:30
 ---
 **Exemple:** 
 
@@ -14,7 +14,7 @@ Soit $U = \ket{0}_{P}\!\bra{0}_{P} \otimes \mathbb{1}_{E} + \ket{1}_{P}\!\bra{1}
 $$
 \begin{align}
 \varepsilon (\rho) &= \mathrm{Tr}_{P}(U \ket{0_{E}} \rho \bra{0_{E}} U^{\dagger}) \\
-&= \braket{ 0_{P} | U | 0_{E} } \rho \braket{ 0_{E} | U^{\dagger} | 0_{P} } + \braket{ 1_{P} | U | 0_{E} } + \braket{ 0_{E} | U^{\dagger} | 1_{P} }
+&= \braket{ 0_{P} | U | 0_{E} } \rho \braket{ 0_{E} | U^{\dagger} | 0_{P} } + \braket{ 1_{P} | U | 0_{E} }\rho \braket{ 0_{E} | U^{\dagger} | 1_{P} }
 \end{align}
 $$
 
@@ -68,7 +68,7 @@ $$
 
 **Cas quantique:**
 
-Supposons qu'on mesure l'environnement dans la base $\{  \ket{e_{k}} \}_{k}$ après qu'on applique $U$. Ce type de mesure n'affecte que l'environnement et non le système principal. Soit$\rho_{k}$ l'état du système principal dans le cas qu'on obtient $k$ dans la mesure de l'environnement. Alors,
+Supposons qu'on mesure l'environnement dans la base $\{  \ket{e_{k}} \}_{k}$ après qu'on applique $U$. Ce type de mesure n'affecte que l'environnement et non le système principal. Soit $\rho_{k}$ l'état du système principal dans le cas qu'on obtient $k$ dans la mesure de l'environnement. Alors,
 
 *Mettre le dessin.*
 
@@ -95,7 +95,7 @@ $$
 \mathbb{P}_{\rho'} (k) &= \mathrm{Tr}(\rho' \hat{P}_{k}) \\
 &= \mathrm{Tr}(\rho' \ket{e_{k}}\!\bra{e_{k}}) \\
 &= \mathrm{Tr}(\bra{e_{k}} \rho' \ket{e_{k}}) \\
-&= \mathrm{Tr}(\braket{ e_{k} | U (\rho \otimes  \ket{e_{0}}\!\bra{e_{0}}) U^{\dagger} | e_{K} }) \\
+&= \mathrm{Tr}(\braket{ e_{k} | U (\rho \otimes  \ket{e_{0}}\!\bra{e_{0}}) U^{\dagger} | e_{k} }) \\
 &= \mathrm{Tr}(\braket{ e_{k} | U | e_{0} } \rho \braket{ e_{0} | U^{\dagger} | e_{k} }) \\
 &= \mathrm{Tr}(E_{k} \rho E_{k}^{\dagger})
 \end{align}
@@ -225,7 +225,7 @@ Alors,
 $$
 \begin{align}
 \mathrm{Tr}_{E}(\hat{P}_{m} U (\rho \otimes  \ket{e_{0}}\!\bra{e_{0}}) U^{\dagger} \hat{P}_{m}) &= \mathrm{Tr}_{E}\left( \sum_{k} \ket{m, k}\!\bra{m, k} U \left( \sum_{j} p_{j} \ket{\psi_{j}}\!\bra{\psi_{j}} \right) \otimes  \ket{e_{0}}\!\bra{e_{0}} U^{\dagger} \sum_{k'} \ket{m, k,}\!\bra{m, k,} \right) \\
-&= \sum_{jk} p_{j} \braket{ m, k | U | \psi_{j} } \ket{e_{0}}\!\bra{e_{0}} \braket{ e_{0} | U^{\dagger} | m, k } \\
+&= \sum_{jk} p_{j} \braket{ m, k | U | \psi_{j} } \ket{e_{0}}\!\bra{e_{0}} \braket{ \psi_{j} | U^{\dagger} | m, k } \\
 &= \sum_{jk} p_{j} \braket{ m, k | \sum_{m'k'} E_{m'k'} \ket{\psi_{j}} \ket{m', k'} \sum_{m''k''} \bra{\psi_{j}} \bra{m'', k''} E_{m''k''}^{\dagger} | m, k } \\
 &= \sum_{j} p_{j} E_{mk} \ket{\psi_{j}}\!\bra{\psi_{j}} E_{mk}^{\dagger} \\
 &= \sum_{mk} E_{mk} \rho E_{mk}^{\dagger}

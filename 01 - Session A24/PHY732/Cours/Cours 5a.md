@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 23-09-2024 13:34
-modified date: 23-09-2024 13:34
+modified date: 30-09-2024 16:30
 ---
 **Exemple (Amortissement d'amplitude) (Suite):**
 
@@ -286,3 +286,5 @@ E_{k} = e_{i_{0}}I_{1} + e_{i_{1}} X_{1} + e_{j_{2}}Z_{1} + e_{i_{3}}X_{1}Z_{1}
 $$
 
 Donc, l'état (pas normalisé) $E_{k} \ket{\psi}$ est une superposition des états $\ket{\psi}$, $X_{1}\ket{\psi}$, $Z_{1}\ket{\psi}$, $X_{1}Z_{1}\ket{\psi}$. Mesurer le *syndrome*, i.e. où est-ce que l'erreur se trouve, de l'erreur fait s'effondrer l'état en un des quatres états précédents. Si on obtient $Z_{1}\ket{\psi}$, on applique $Z_{1}$ par exemple. Le même processus s'applique pour chaque $E_{i}$.
+
+*On peut corriger une infinité d'erreurs en corrigeant une quantité discrète d'erreurs.*
