@@ -8,6 +8,9 @@ Toute la matière du cours se trouve dans le manuel suivant:
 
 - M. A. Nielsen and I. L. Chuang, _Quantum Computation and Quantum Information: 10th Anniversary Edition_, in (Cambridge University Press, 2010).
 
+La partie sur la théorie des groupes se trouve dans le manuel suivant [An Introduction to the Theory of Groups](https://eclass.uoa.gr/modules/document/file.php/MATH784/Rotman%20An%20introduction%20to%20the%20theory%20of%20groups%20%281%29.pdf) par Joseph J. Rotman.
+
+
 |                                                                     Section                                                                      | Pages     |
 | :----------------------------------------------------------------------------------------------------------------------------------------------: | --------- |
 |                                             [Matrice densité](Cours/Cours%201a.md#Matrice%20densité)                                             | 99 à 108  |
@@ -16,7 +19,9 @@ Toute la matière du cours se trouve dans le manuel suivant:
 |                    [Introduction à la correction d'erreur](Cours/Cours%205a.md#Introduction%20à%20la%20correction%20d'erreur)                    | 425 à 431 |
 |                                               [Code de Shor](Cours/Cours%205a.md#Code%20de%20Shor)                                               | 432 à 434 |
 |             [Théorie de la correction d'erreur quantique](Cours/Cours%205b.md#Théorie%20de%20la%20correction%20d'erreur%20quantique)             | 435 à 441 |
-|                          [Construction de codes quantiques](Cours/Cours%206a.md#Construction%20de%20codes%20quantiques)                          | 445 à     |
+|                          [Construction de codes quantiques](Cours/Cours%206a.md#Construction%20de%20codes%20quantiques)                          | 445 à 453 |
+|                                        [Théorie des groupes](Cours/Cours%206b.md#Théorie%20des%20groupes)                                        | 10 à 19*  |
+
 
 1. [Matrice densité](Cours/Cours%201a.md#Matrice%20densité)
 	1. [Ensemble d'états quantiques](Cours/Cours%201a.md#Ensemble%20d'états%20quantiques)
@@ -41,3 +46,4 @@ Toute la matière du cours se trouve dans le manuel suivant:
 7. [Construction de codes quantiques](Cours/Cours%206a.md#Construction%20de%20codes%20quantiques)
 	1. [Codes linéaires classiques](Cours/Cours%206a.md#Codes%20linéaires%20classiques)
 	2. [Codes quantiques de Calderbank-Shor-Steane](Cours/Cours%206a.md#Codes%20quantiques%20de%20Calderbank-Shor-Steane)
+8. [Théorie des groupes](Cours/Cours%206b.md#Théorie%20des%20groupes)

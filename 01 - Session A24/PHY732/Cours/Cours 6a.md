@@ -169,7 +169,7 @@ $$
 
 Soit $C$ un code avec $d(C) \geq 2t+1$, $t \in \mathbb{Z}_{\geq_{0}}$ celui-ci peut corriger des erreurs sur $t$ qubits avec un décodage de $y'$ pour $y$ tel que $d(y, y') \leq t$ qui est unique. Soit $H$ une matrice de contrôle de parité dans laquelle tout ensemble de $d-1$ colonnes est linéairement indépendants, mais il existe un ensemble de $d$ colonnes linéairement indépendants. Alors, $d(C) = d$.
 
-### Les codes de Hamming
+### Codes de Hamming
 
 Soit $r \geq 2$ et $H$ la matrice avec $2^{r}-1$ colonnes formée pour tous les vecteurs de longueur $r$ qui ne sont pas $\vec{0}$. Ces codes sont des $[2^{r}-1, 2^{r}-r-1]$-codes.
 
