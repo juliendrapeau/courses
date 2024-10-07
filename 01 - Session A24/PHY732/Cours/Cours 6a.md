@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 30-09-2024 13:33
-modified date: 30-09-2024 16:30
+modified date: 07-10-2024 12:59
 ---
 # Construction de codes quantiques
 

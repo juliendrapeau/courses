@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 19-09-2024 15:42
-modified date: 30-09-2024 16:30
+modified date: 07-10-2024 12:59
 ---
 
 Toute la matière du cours se trouve dans le manuel suivant:

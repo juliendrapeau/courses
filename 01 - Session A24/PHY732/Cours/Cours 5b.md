@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 26-09-2024 08:33
-modified date: 30-09-2024 16:30
+modified date: 07-10-2024 12:59
 ---
 # Théorie de la correction d'erreur quantique
 

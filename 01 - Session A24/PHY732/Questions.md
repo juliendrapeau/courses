@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 19-09-2024 15:42
-modified date: 30-09-2024 16:30
+modified date: 07-10-2024 12:59
 ---
 
 - [x] Comment trouver la matrice densité réduite à partir à l'aide de la trace partielle dans le numéro 2a du devoir 1? Est-ce que cela est vrai?
