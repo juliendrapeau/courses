@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 19-09-2024 15:42
-modified date: 07-10-2024 12:59
+modified date: 24-10-2024 16:44
 ---
 
 - [x] Comment trouver la matrice densité réduite à partir à l'aide de la trace partielle dans le numéro 2a du devoir 1? Est-ce que cela est vrai?
@@ -29,4 +29,5 @@ $$
 
 - [ ] Est-ce que le canal d'erreur bit flip est la même opération quantique que le canal d'erreur dépolarisant, en sachant que $E_{i} = \sum_{j} \mu_{ij} F_{j}$ (théorème 8.2). 
 
+- [ ] $H=\{ I,X \}$ peut engendrer $G_{1}$?  
 

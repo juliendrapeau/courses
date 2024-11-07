@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 07-10-2024 13:32
-modified date: 07-10-2024 13:32
+modified date: 06-11-2024 15:50
 ---
 **Example:** Soit
 $$
@@ -21,11 +21,12 @@ $$
 1. $f((0,0)+(0,1)) = f(0,1) = 0$
 2. $f(0,0)+f(0,1)=0+0=0$
 
-On a que
+Il s'agit bien d'un homomorphisme comme
 
 1. $f((a,b)+(c,d)) = f(a+c,b+d) = a+c$
 2. $f(a,b)+f(c,d) = a+c$ 
 
+On remarque que
 $$
 \begin{align}
 \text{Ker}f &= \{ (a,b) | f(a,b)=0 \} \\
@@ -47,7 +48,7 @@ Soit
 
 On définit le groupe $G_{1} = \{ \pm I, \pm iI, \pm X, \pm iX, \pm Y, \pm iY, \pm Z, \pm iZ  \}$. On le nomme le *groupe de Pauli à 1 qubit*. On a que $G_{2} = \{ P \otimes Q | P,Q \in G_{1} \}$ pour deux qubits. Le *groupe de Pauli à n qubits* est définit comme $G_{n} = \{ P_{1} \otimes \dots \otimes P_{n} | P_{j} \in G_{1} \}$.
 
-Soit $H = \{I, X \}$. On trouve avec ce groupe que $X(-iY)=Z$, $(-iY)X = -i(-i)Z = -Z$, $Z(-iY)=-i(-i)X=-X$. On peut générer alors
+Soit un groupe $H = \{I, X \}$. On trouve avec ce groupe que $X(-iY)=Z$, $(-iY)X = -i(-i)Z = -Z$, $Z(-iY)=-i(-i)X=-X$. On peut générer alors
 
 $$
 H' = \{ I, X, Z, -iY, -Z, -X, \dots \} = G_{1}
@@ -59,7 +60,7 @@ $$
 \braket{ a } = \{ a^{n} : n \in \mathbb{Z} \}
 $$
 
-On a en particulier que $a^{0} = e_{G}$. Comme $n \in \mathbb{Z}$, alors on a que $\braket{ a^{-1} } = \braket{ a } \neq \braket{ a^{2} }$. 
+On a en particulier que $a^{0} = e_{G}$. Comme $n \in \mathbb{Z}$, alors on a que $\braket{ a^{-1} } = \braket{ a } \neq \braket{ a^{2} }$. Par exemple, $\braket{ X } = H = \{ I, X \}$.
 
 **Définition:** Soit $S$ un sous-ensemble d'un groupe $G$. Un *mot* sur $S$ est un élément $w \in G$ de la forme $w = x_{1}^{l_{1}} \dots x_{n}^{l_{n}}$, pour $x_{j} \in S$, $l_{j} \in \{ \pm 1 \}$, $n \geq 1$.
 
@@ -242,8 +243,7 @@ Celui-ci est l'ensemble des classes résiduelles.
 **Théorème:** Si $H \triangleleft G$ est un sous-groupe normal, alors $\frac{G}{H}$ est un groupe avec $gH \cdot g'H = (gg')H$.
 
 # Codes stabilisateurs
-
-## Le formalisme des stabilisateurs
+## Formalisme des stabilisateurs
 
 Le groupe $G_{n}$ a une action sur l'espace d'Hilbert à n-qubits. Soit $S < G_{n}$ un sous-groupe.
 
@@ -267,7 +267,6 @@ S &= \{ I, Z_{1}Z_{2}, Z_{2}Z_{3}, Z_{1}Z_{3} \} < G_{3} \\
 V_{Z_{1}Z_{2}} &= \text{span}\{ \ket{000}, \ket{001}, \ket{110}, \ket{111} \} \\
 V_{Z_{2}Z_{3}} &= \text{span}\{ \ket{000}, \ket{100}, \ket{011}, \ket{111} \} \\
 V_{Z_{1}Z_{3}} &= \text{span}\{ \ket{000}, \ket{010}, \ket{101}, \ket{111} \} \\
-V_{S} &= \text{span}\{ \ket{00}, \ket{111} \}
+V_{S} &= \text{span}\{ \ket{000}, \ket{111} \}
 \end{align}
 $$
-

@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 19-09-2024 08:36
-modified date: 07-10-2024 12:59
+modified date: 24-10-2024 16:44
 ---
 # Examples de bruit quantique et d'opérations quantiques
 
@@ -97,7 +97,7 @@ E_{0} = \sqrt{ p }I = \sqrt{ p } \begin{pmatrix}
 1 & 0 \\
 0 & 1
 \end{pmatrix}, \
-E_{1} = \sqrt{ 1-p }Z = \sqrt{ 1-p}\begin{pmatrix}
+E_{1} = \sqrt{ 1-p }Y = \sqrt{ 1-p}\begin{pmatrix}
 0 & -i \\
 i & 0
 \end{pmatrix}

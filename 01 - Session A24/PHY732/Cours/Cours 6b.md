@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 03-10-2024 08:37
-modified date: 07-10-2024 12:59
+modified date: 24-10-2024 16:44
 ---
 Les codes linéaires $C$ sont des espaces vectorielles sur $\mathbb{Z}_{2}$: $\begin{pmatrix}1&1&1&1\end{pmatrix} \cdot \begin{pmatrix}1&1&1&1\end{pmatrix}=4=0$.
 
@@ -21,7 +21,7 @@ $$ H =
 \begin{pmatrix}
 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
-1 & 0 & 1 & 0 & 1 & 0 &  & 1
+1 & 0 & 1 & 0 & 1 & 0 & 1
 \end{pmatrix}
 $$
 
@@ -228,11 +228,12 @@ $$
 
 **Définition:** Soit des groupes $(G,*)$ et $(H, \circ)$. Un *groupe produit* $G \times H$ est un groupe avec $(g,h) \cdot (g',h') = (g*g', h \circ h')$. On a alors que $e_{G \times H} = (e_{G}, e_{H})$ et $(g,h)^{-1}=(g^{-1},h^{-1})$.
 
-$\tilde{G} = \{ (g,e_{H}): g \in G \} \subset G \times H$, 
+Soit $\tilde{G} = \{ (g,e_{H}): g \in G \} \subset G \times H$. On a que
+
 $e_{\tilde{G}}=(e_{G}, e_{H})=e_{G \times H}$, $(g, e_{H}) \cdot (g', e_{H}) = (g * g', e_{H} \circ e_{H}) = (g*g', e_{H}) \in \tilde{G}$.
 $(g, e_{H})^{-1} = (g^{-1},e_{H}^{-1} = (g^{-1}, e_{H}) \in \tilde{G}$.
 
-$\tilde{G} \subset G \times H$ est un sous-groupe.
+Donc, $\tilde{G} \subset G \times H$ est un sous-groupe.
 
 $$
 \begin{align}
@@ -241,11 +242,11 @@ f&: G \times H \to \tilde{G} \\
 \end{align}
 $$
 
-$f(g,h) \cdot f(g',h')=(g,e_{H}) \cdot (g', e_{H}) = (g*g', e_{H} \circ e_{H}) = (g*g^{-1}, e_{H})$
+$f(g,h) \cdot f(g',h')=(g,e_{H}) \cdot (g', e_{H}) = (g*g', e_{H} \circ e_{H}) = (g*g', e_{H})$
 $f(g,h)=(g,e_{H})$
 $f(g, e_{H})=(g,e_{H})$
 
-$f$ n'est pas injective (pas un isomorphisme). On a que
+$f$ n'est pas injective (pas un isomorphisme). On a par contre que
 
 $$
 \begin{align}
@@ -259,5 +260,6 @@ est un isomorphisme.
 **Définition:** Un groupe $G$ est *abélien* si 
 
 $$
-a*b=b*a \ \forall \ a,b \in G
+a*b=b*a \ \forall \ a,b \in G,
 $$
+c'est-à-dire que tous les éléments du groupe commutent entre eux.

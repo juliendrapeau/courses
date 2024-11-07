@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 05-09-2024 08:39
-modified date: 19-09-2024 16:09
+modified date: 24-10-2024 16:44
 ---
 ## Propriétés générales des matrices densités
 
@@ -39,7 +39,7 @@ Pour distinguer les états purs des états mixtes, on peut étudier $\rho^{2}$. 
 1. $\mathrm{Tr}(\rho) = 1$
 2. $\underbrace{ \braket{ \phi | \rho | \phi }  }_{ \text{ Opérateur positif } }\geq 0 \quad \forall \ket{\phi}$
 
-Un opérateur positif semi-défini si toutes les valeurs propres sont non-négatives. *La formulation $\{ \psi_{k}, \rho_{k} \}_{k=1}^N$ implique que l'opérateur doit être hermitien.
+Un opérateur semi-défini positif si toutes les valeurs propres sont non-négatives. *La formulation $\{ \psi_{k}, \rho_{k} \}_{k=1}^N$ implique que l'opérateur doit être hermitien.
 
 **Preuve:** 
 

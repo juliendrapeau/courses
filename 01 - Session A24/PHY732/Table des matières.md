@@ -1,26 +1,29 @@
 ---
 tags: 
 created date: 19-09-2024 15:42
-modified date: 07-10-2024 12:59
+modified date: 06-11-2024 15:50
 ---
 
 Toute la matière du cours se trouve dans le manuel suivant:
 
 - M. A. Nielsen and I. L. Chuang, _Quantum Computation and Quantum Information: 10th Anniversary Edition_, in (Cambridge University Press, 2010).
 
-La partie sur la théorie des groupes se trouve dans le manuel suivant [An Introduction to the Theory of Groups](https://eclass.uoa.gr/modules/document/file.php/MATH784/Rotman%20An%20introduction%20to%20the%20theory%20of%20groups%20%281%29.pdf) par Joseph J. Rotman.
+La partie sur la théorie des groupes se trouve dans le manuel suivant:
+
+- [An Introduction to the Theory of Groups](https://eclass.uoa.gr/modules/document/file.php/MATH784/Rotman%20An%20introduction%20to%20the%20theory%20of%20groups%20%281%29.pdf) par Joseph J. Rotman.
 
 
-|                                                                     Section                                                                      | Pages     |
-| :----------------------------------------------------------------------------------------------------------------------------------------------: | --------- |
-|                                             [Matrice densité](Cours/Cours%201a.md#Matrice%20densité)                                             | 99 à 108  |
-|                                       [Opérations quantiques](Cours/Cours%203a.md#Opérations%20quantiques)                                       | 356 à 373 |
-| [Examples de bruit quantique et d'opérations quantiques](Cours/Cours%204b.md#Examples%20de%20bruit%20quantique%20et%20d'opérations%20quantiques) | 373 à 385 |
-|                    [Introduction à la correction d'erreur](Cours/Cours%205a.md#Introduction%20à%20la%20correction%20d'erreur)                    | 425 à 431 |
-|                                               [Code de Shor](Cours/Cours%205a.md#Code%20de%20Shor)                                               | 432 à 434 |
-|             [Théorie de la correction d'erreur quantique](Cours/Cours%205b.md#Théorie%20de%20la%20correction%20d'erreur%20quantique)             | 435 à 441 |
-|                          [Construction de codes quantiques](Cours/Cours%206a.md#Construction%20de%20codes%20quantiques)                          | 445 à 453 |
-|                                        [Théorie des groupes](Cours/Cours%206b.md#Théorie%20des%20groupes)                                        | 10 à 19*  |
+|                                                                     Section                                                                      | Pages               |
+| :----------------------------------------------------------------------------------------------------------------------------------------------: | ------------------- |
+|                                             [Matrice densité](Cours/Cours%201a.md#Matrice%20densité)                                             | 99 à 108            |
+|                                       [Opérations quantiques](Cours/Cours%203a.md#Opérations%20quantiques)                                       | 356 à 373           |
+| [Examples de bruit quantique et d'opérations quantiques](Cours/Cours%204b.md#Examples%20de%20bruit%20quantique%20et%20d'opérations%20quantiques) | 373 à 385           |
+|                    [Introduction à la correction d'erreur](Cours/Cours%205a.md#Introduction%20à%20la%20correction%20d'erreur)                    | 425 à 431           |
+|                                               [Code de Shor](Cours/Cours%205a.md#Code%20de%20Shor)                                               | 432 à 434           |
+|             [Théorie de la correction d'erreur quantique](Cours/Cours%205b.md#Théorie%20de%20la%20correction%20d'erreur%20quantique)             | 435 à 441           |
+|                          [Construction de codes quantiques](Cours/Cours%206a.md#Construction%20de%20codes%20quantiques)                          | 445 à 453           |
+|                                        [Théorie des groupes](Cours/Cours%206b.md#Théorie%20des%20groupes)                                        | 610 à 612, 10 à 19* |
+|                                        [Codes stabilisateurs](Cours/Cours%207a.md#Codes%20stabilisateurs)                                        | 454 à ...           |
 
 
 1. [Matrice densité](Cours/Cours%201a.md#Matrice%20densité)
@@ -47,3 +50,12 @@ La partie sur la théorie des groupes se trouve dans le manuel suivant [An Intro
 	1. [Codes linéaires classiques](Cours/Cours%206a.md#Codes%20linéaires%20classiques)
 	2. [Codes quantiques de Calderbank-Shor-Steane](Cours/Cours%206a.md#Codes%20quantiques%20de%20Calderbank-Shor-Steane)
 8. [Théorie des groupes](Cours/Cours%206b.md#Théorie%20des%20groupes)
+9. [Codes stabilisateurs](Cours/Cours%207a.md#Codes%20stabilisateurs)
+	1. [Formalisme des stabilisateurs](Cours/Cours%207a.md#Formalisme%20des%20stabilisateurs)
+
+
+1. [Révision Intra](Cours/Cours%207b.md#Révision%20Intra)
+	1. [Matrice densité](Cours/Cours%207b.md#Matrice%20densité)
+	2. [Opérations quantiques](Cours/Cours%207b.md#Opérations%20quantiques)
+	3. [Correction d'erreur](Cours/Cours%207b.md#Correction%20d'erreur)
+	4. [Théorie des groupes](Cours/Cours%207b.md#Théorie%20des%20groupes)

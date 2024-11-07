@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 30-09-2024 13:33
-modified date: 07-10-2024 12:59
+modified date: 16-10-2024 11:32
 ---
 # Construction de codes quantiques
 
@@ -26,7 +26,7 @@ G = \begin{pmatrix}
 \end{pmatrix}
 $$
 $$
-\begin{pmatrix}
+G\begin{pmatrix}
 0 \\
 0
 \end{pmatrix} \to \begin{pmatrix}
@@ -36,7 +36,7 @@ $$
 0 \\
 0 \\
 0
-\end{pmatrix}, \ \begin{pmatrix}
+\end{pmatrix}, \ G\begin{pmatrix}
 0 \\
 1
 \end{pmatrix} \to \begin{pmatrix}
@@ -46,7 +46,7 @@ $$
 1 \\
 1 \\
 1
-\end{pmatrix}, \ \begin{pmatrix}
+\end{pmatrix}, \ G\begin{pmatrix}
 1 \\
 0
 \end{pmatrix} \to G\begin{pmatrix}
@@ -79,7 +79,7 @@ L'ensemble des mots de code possibles pour le code correspond à l'espace engend
 
 Un code général qui encode $k$ bits en $n$ bits a besoin de spécifier $2^{k}$ mots de code de longueur $n$, donc $n 2^{k}$ bits d'information pour décrire le code. Avec un code linéaire, on a besoin de $nk$ bits.
 
-**Définition:** Un $[n,k]$-code est décrit par les vecteurs $x \in \mathbb{Z}_{2}^{n}$ tel que $Hx=0$, avec $M \in \text{ Mat}_{\mathbb{Z}_{2}}(n-k,n)$. $M$ est la matrice de contrôle de parité. 
+**Définition:** Un $[n,k]$-code est décrit par les vecteurs $x \in \mathbb{Z}_{2}^{n}$ tel que $Hx=0$, avec $H \in \text{ Mat}_{\mathbb{Z}_{2}}(n-k,n)$. $H$ est la matrice de contrôle de parité. 
 
 $$
 \{ x \in \mathbb{Z}_{2}^{n} | Hx = 0 \} = \text{Ker}H
@@ -185,6 +185,10 @@ $$
 
 $d(C) = 3 = 2*1 +1$, on peut corriger toute erreur à 1 bit. $Hy' = He_{j}$ est la représentation binaire de la position de l'erreur. $[2^{r}-1, 2^{r}-r-1, 3]$.
 
+En effet, par l'exercice 10.20 du manuel, on a que:
+
+Soit une matrice de contrôle de parité $H$ telle que toute combinaison de $d-1$ colonnes est linéairement indépendante, mais qu'il existe un ensemble de $d$ colonnes linéairement dépendantes. Alors, le code défini par $H$ a une distance $d$.
+
 **Théorème (Borne Gilbert-Varshamov):** Pour $n$ suffisamment grand, il existe un $[n, k]$-code capable de corriger des erreurs à $t$ bits pour $k$ tel que
 
 $$
@@ -209,7 +213,7 @@ $$
 \ket{x+C_{2}} := \frac{1}{\sqrt{ \lvert c_{2} \rvert  }} \sum_{y \in C_{2}} \ket{x + y}
 $$
 
-Attention, $\ket{x+y} \neq \ket{x} + \ket{y}$, car $\ket{x+y} \in \mathbb{Z}_{2}^{n}$ et $\ket{x}+\ket{y}$ est une somme sur l'espace d'Hilbert. On a donc que
+Attention, $\ket{x+y} \neq \ket{x} + \ket{y}$, car $\ket{x+y} \in \mathbb{Z}_{2}^{n}$ et $\ket{x}+\ket{y}$ est une somme sur l'espace d'Hilbert. Supposons qu'on a
 
 $$
 x + C_{2} = x' + C_{2} \iff x-x' \in C_{2} \iff \exists c \in C_{2} \text{ t.q } x-x'=c \text{ et } x=x'+c
@@ -219,21 +223,21 @@ On veut montrer que $\ket{x+C_{2}} = \ket{x'+C_{2}}$.
 
 $$
 \begin{align}
-\ket{x'+C_{2}} &= \frac{1}{\sqrt{ \lvert c_{2} \rvert  }} \sum_{y \in C_{2}} \ket{x+y} \\
-&= \frac{1}{\sqrt{ \lvert c_{2} \rvert  }} \sum_{y \in C_{2}} \ket{x'+\underbrace{ c+y }_{ \in C_{2} }} \\
-&= \frac{1}{\sqrt{ \lvert c_{2} \rvert  }} \sum_{y' \in C_{2}} \ket{x' + y'} \\
+\ket{x+C_{2}} &= \frac{1}{\sqrt{ \lvert C_{2} \rvert  }} \sum_{y \in C_{2}} \ket{x+y} \\
+&= \frac{1}{\sqrt{ \lvert C_{2} \rvert  }} \sum_{y \in C_{2}} \ket{x'+\underbrace{ c+y }_{ \in C_{2} }} \\
+&= \frac{1}{\sqrt{ \lvert C_{2} \rvert  }} \sum_{y' \in C_{2}} \ket{x' + y'} \\
 &= \ket{x' + C_{2}}
 \end{align}
 $$
 
-De plus, 
+De plus,
 
 $$
 \begin{align}
-\braket{ x+C_{2} | x+C_{2} } &= \frac{1}{\lvert c_{2} \rvert } \sum_{y, y' \in C_{2}} \braket{ x+y | x+y' } \\
-&= \frac{1}{\lvert c_{2} \rvert } \sum_{y,y' \in C_{2}} \braket{ y | y' } \\
-&= \frac{1}{\lvert c_{2} \rvert } \sum_{y \in C_{2}} \braket{ y | y } \\
-&= \frac{1}{\lvert c_{2} \rvert } \sum_{y \in C_{2}} 1 \\
+\braket{ x+C_{2} | x+C_{2} } &= \frac{1}{\lvert C_{2} \rvert } \sum_{y, y' \in C_{2}} \braket{ x+y | x+y' } \\
+&= \frac{1}{\lvert C_{2} \rvert } \sum_{y,y' \in C_{2}} \braket{ y | y' } \\
+&= \frac{1}{\lvert C_{2} \rvert } \sum_{y \in C_{2}} \braket{ y | y } \\
+&= \frac{1}{\lvert C_{2} \rvert } \sum_{y \in C_{2}} 1 \\
 &= 1
 \end{align}
 $$
