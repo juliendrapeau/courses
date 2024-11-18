@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 07-10-2024 13:32
-modified date: 06-11-2024 15:50
+modified date: 11-11-2024 13:33
 ---
 **Example:** Soit
 $$

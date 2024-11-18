@@ -1,7 +1,7 @@
 ---
 tags: 
 created date: 07-11-2024 08:57
-modified date: 07-11-2024 09:43
+modified date: 11-11-2024 13:33
 ---
 *On a fait une révision des numéros de l'examen intra durant la première partie du cours.*
 
@@ -24,6 +24,8 @@ P_{S}^{x} &= \frac{1}{2^{n-k}} \prod_{j=1}^{n-k} (I+ (-1)^{x_{j}}g_{j}) \\
 P_{S}^{(0, \dots, 0)} &= \frac{1}{2^{n-k}} \prod_{j=1}^{n-k} (I+g_{j})
 \end{align}
 $$
+
+**Exemple:** Si $k=1$, alors $\text{dim}_{\mathbb{C}}V_{S}=2$. Dans $V_{S}$, on prend $\ket{0}_{L}$ et $\ket{1}_{L}$ orthogonaux.
 
 **Théorème:** Soit $S = \braket{ g_{1}, \dots, g_{n-k}} < G_{n}$. Pour $j \in \{ 1, .., n-k \}$, il existe $g \in G_{n}$ tel que $gg_{i}g^{\dagger} = -g_{i}$, $gg_{j}g^{\dagger}=g_{j} \ \forall \ i\neq j$ . Pour $x \in Z_{2}^{n-k}$, $\exists g_{x} \in G_{n}$ tel que
 
@@ -94,9 +96,19 @@ On a que $P_{S}^{x}P_{S}^{x'}=0$. Par exemple, pour $x=(0,1)$ et $x' = (1,1)$, o
 
 $$
 \begin{align} \\
-P_{S}^{x} &= (I+g_{1})(I-g_{2})
+P_{S}^{x} &= (I+g_{1})(I-g_{2}) \\
 P_{S}^{x'} &= (I-g_{1})(I-g_{2}) \\
 P_{S}^{x}P_{S}^{x'} &= \dots = 0
+\end{align}
+$$
+
+En effet, si $x \neq x'$, $\exists j$ tel que $x_{j} \neq x_{j}'$, alors
+
+$$
+\begin{align}
+P_{S}^{x}P_{S}^{x'} &= (I + g_{j})(I-g_{j}) \prod \dots \\
+&= 0 \prod \dots \\
+&= 0
 \end{align}
 $$
 
