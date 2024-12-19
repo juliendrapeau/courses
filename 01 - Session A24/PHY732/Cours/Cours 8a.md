@@ -99,3 +99,5 @@ $$
 
 
 *Rajouter le produit intérieur symplectique!!*
+
+*Voir les notes de Ben.*

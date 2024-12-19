@@ -184,7 +184,7 @@ $$
 1. $x \in S \implies x^{-1} \in S$
 2. $x,y \in S \implies xy \in S$
 
-Est-ce que $e_{s} \in S$? Oui!
+Est-ce que $e_{G} \in S$? Oui!
 
 $$
 \begin{align}
@@ -215,7 +215,7 @@ $$
 2. $x \in \text{Ker}f \iff f(x) = e_{H}$, $f(x^{-1})=f(x)^{-1}=e_{H}^{-1}=e_{H} \implies x^{-1} \in \text{Ker}f$.
 3. $x,y \in \text{Ker}f \implies f(x)=e_{H}, f(y)=e_{H} \implies f(x*y) = f(x)\circ f(y) = e_{H} \circ e_{H}= e_{H}$. 
 
-Donc, $f: (G,*) \to (H, \circ)$ est un homomorphisme ce qui implique que $\text{Ker}f \subset G$ est un sous-groupe de $G$.
+$f: (G,*) \to (H, \circ)$ est un homomorphisme et donc $\text{Ker}f \subset G$ est un sous-groupe de $G$.
 
 Soit $\mathbb{Z}_{2} \times \mathbb{Z}_{2} = \{ (a,b): a,b \in \mathbb{Z}_{2} \}$
 

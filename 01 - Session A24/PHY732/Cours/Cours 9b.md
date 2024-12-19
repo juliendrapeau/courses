@@ -161,3 +161,5 @@ $$
 
 $S$ a 12 générateurs, donc $\text{dim}V_{S} = 2^{0} = 1$.
 
+*J'ai manqué beaucoup d'informations ici...*
+
